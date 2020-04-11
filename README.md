@@ -138,9 +138,8 @@ There are few ideas we think of improving:
 # Challenge
 The first challenge we faced is computation power limitation. VINA is a tool that utilizes CPU only without the option to utilize GPU for accelerating the docking process. 1500 ligands require roughly 18 hours to calculate binding affinity to every ligands with exhaustiveness of 8. This operation is performed on a Windows machine with Core i7-6700K. This severely limits the things we can do to our algorithm design as we need to reserve a lot of time to calculating the binding affinity of each ligand with the main protease of coronavirus.  ...JANSON & KWONG
 
-# Future work
-Evaluation: 
-1) Cloud Computing: ...................KWONG
+# Future work 
+1) Consideration can be made to add more fitness function like how easy the drug can be systhesized in labs, as suggested by Matt. 
 2) .....JANSON or KWONG (add what method which can speed up the progress)
 
 # Reference
