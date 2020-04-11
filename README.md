@@ -42,16 +42,16 @@ The requirements are identical to the original repository [Deep_Learning_Coronav
 
 
 # Changes to Original files
-In this repository, we introduced a new concept which we called it as local Genetic Algorithm (local-GA) which is also a optimization method in evolutionary computing. In our method, we plan to keep things easy as this repository is consider as a good start and well-maintain. 
+In this repository, we introduced a new concept which we name it as local Genetic Algorithm (local-GA), which is an optimization method in evolutionary computing. In our method, we plan to keep changes to a minimum as the repository by Matt is well-maintained and can act as a good starting point.  
 
-This method utilized the cross-over and mutation to search for the molecule in chemical space based on the fitness function.
+Our local-GA utilizes the cross-over and mutation to search for the molecule based on the fitness function.
 
-We implement local-GA in 2 part, which is before the Transfer Learning and at te last phase which is before we export the generated molecule to sdf file.
+We implement local-GA in 2 parts, which are before the Transfer Learning and before we export the generated molecule to sdf file.
 
 In our approaches, this is overview of our local GA:
 - **Population: The number of original molecule**
 
-The initial population is depend on the molecule we compute before passing it to the local GA. There are 2 part that we called the local-GA which is before the transfer learning and before exporting the sdf files. So, the first population is the 70 molecule selected based on score, similarity, logP and also random generated. In second local-GA, number of validated molecule from 5000 molecule generated after transfer learning is used.
+The initial population depends on the molecule we compute before passing it to the local GA. There are 2 part that we called the local-GA which is before the transfer learning and before exporting the sdf files. So, the first population is the 70 molecule selected based on score, similarity, logP and also random generated. In second local-GA, number of validated molecule from 5000 molecule generated after transfer learning is used.
 
 - **Mating Pool: The number we want to pass generation by generation**
 
@@ -136,7 +136,6 @@ There are few ideas we think of improving:
 2) From the evaluation, we plan to use neural network to perform prediction, but after we think twice we found out that the neural network is just the estimation of the affirnity which is dangerous as its contains errors in the prediction. 
 
 # Challenge
-We face the challenge of loading the chemical data into the PyRX and compute the binding affirnity. This process is time consuming. 1.5 of data requires 12 hours of training.............JANSON & KWONG
 
 # Future work
 Evaluation: 
