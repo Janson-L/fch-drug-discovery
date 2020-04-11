@@ -33,7 +33,7 @@ Next, we would like to thanks jhjensen2 with his repository Graph-based genetic 
 # Team Details
 Team Name: TaoFuFa
 1) Quek Yao Jing [Skyquek-github](https://github.com/Skyquek)
-2) Liew Kok Fu [Skyquek-github](https://github.com/Skyquek) ----------------- Janson
+2) (Janson) Liew Kok Foo [Janson-L-github](https://github.com/Janson-L)
 3) Tang Li Ho [Skyquek-github](https://github.com/Skyquek) ------------------ Li Ho
 4) Kwong Tung Nan [Skyquek-github](https://github.com/Skyquek) -------------Kwong
 
