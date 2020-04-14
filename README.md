@@ -136,11 +136,14 @@ There are few ideas we think of improving:
 2) From the evaluation, we plan to use neural network to perform prediction, but after we think twice we found out that the neural network is just the estimation of the affirnity which is dangerous as its contains errors in the prediction. 
 
 # Challenge
-The first challenge we faced is computation power limitation. VINA is a tool that utilizes CPU only without the option to utilize GPU for accelerating the docking process. 1500 ligands require roughly 18 hours to calculate binding affinity to every ligands with exhaustiveness of 8. This operation is performed on a Windows machine with Core i7-6700K. This severely limits the things we can do to our algorithm design as we need to reserve a lot of time to calculating the binding affinity of each ligand with the main protease of coronavirus.  ...JANSON & KWONG
+The first challenge we faced is computation power limitation. VINA is a tool that utilizes CPU only without the option to utilize GPU for accelerating the docking process. 1500 ligands require roughly 18 hours to calculate binding affinity to every ligands with exhaustiveness of 8. This operation is performed on a Windows machine with Core i7-6700K. This severely limits the things we can do to our algorithm design as we need to reserve a lot of time to calculating the binding affinity of each ligand with the main protease of coronavirus.  
 
 # Future work 
-1) Consideration can be made to add more fitness function like how easy the drug can be systhesized in labs, as suggested by Matt. 
-2) .....JANSON or KWONG (add what method which can speed up the progress)
+1) Increase the number of generations  
+2) Change local-GA parameters
+3) Change the base network to Generative Adversarial Network (GAN)
+4) To compute binding affinity for all drugs in market(~450,000) and using the results to generate gen0
+5) GPU based docking for faster evaluation
 
 # Reference
 1) https://drugbank.s3-us-west-2.amazonaws.com/assets/blog/COVID-19_Web.pdf
